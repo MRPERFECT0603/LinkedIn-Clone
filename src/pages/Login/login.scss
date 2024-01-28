@@ -1,0 +1,168 @@
+.login {
+    height: 100vh;
+    background-color: rgb(244, 242, 238);
+    display: flex;
+    flex-direction: column;
+    .titleBar {
+        padding-top: 30px;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+
+        .Linked {
+            font-size: 30px;
+            color: #024fa2;
+            font-weight: 700;
+            padding-right: 5px;
+        }
+
+        .In {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .loginBody {
+        margin-top: 20px;
+        align-self: center;
+        max-width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+
+        .tagline {
+            padding-left: 15px;
+            padding-bottom: 20px;
+
+            h2 {
+                font-size: 35px;
+                font-weight: 600;
+            }
+            h3{
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+
+        .loginForm {
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 20px;
+
+            span{
+                font-weight: bolder;
+                color: #024fa2;
+                padding-bottom: 20px;
+            }
+
+            input {
+                box-sizing: border-box;
+                padding: 10px;
+                margin-bottom: 16px;
+                border: 1px solid #858585;
+                border-radius: 4px;
+                font-size: 12px;
+                width: 100%;
+            }
+            .loginButton {
+                justify-content: center;
+                padding: 10px;
+                align-items: center;
+
+                button {
+                    width: 100%;
+                    padding: 16px;
+                    background-color: rgb(45, 100, 188);
+                    color: #fff;
+                    border: none;
+                    border-radius: 24px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    outline: none;
+
+                    &:hover {
+                        background-color: rgb(24, 64, 126); // Darker LinkedIn blue on hover
+                    }
+                }
+
+            }
+
+        }
+    }
+    .Register {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+        p {
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        span {
+            color: #024fa2;
+            text-decoration: none; 
+            cursor: pointer;
+        }
+
+    }
+    .footerMenu {
+        padding-top: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 22px;
+
+        .leftf {
+            display: flex;
+            align-items: center;
+            .Linkedf {
+                font-size: 15px;
+                color: black;
+                font-weight: 700;
+                padding-right: 1px;
+            }
+
+            .Inf {
+                width: 15px;
+                filter: grayscale(100%);
+                height: 15px;
+            }
+            span{
+                font-size: 12px;
+            }
+            .copyright {
+                padding-left: 10px;
+                width: 10px;
+                height: 10px;
+            }
+
+        }
+
+        .fitem {
+            font-size: 12px;
+            color: gray;
+            font-weight: 700;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        .fitem:hover{
+            cursor: pointer;
+            color: #024fa2;
+            text-decoration: underline;
+        }
+    }
+}

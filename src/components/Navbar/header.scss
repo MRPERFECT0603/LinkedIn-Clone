@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    .header__left {
+        padding-left: 10px;
+        display: flex;
+        img{
+            object-fit: contain;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .headerSearch{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            color: grey;
+            height: 22px;
+            background-color: #eef3f8;
+            border-radius: 5px;
+            input{
+                outline: none;
+                border-style: none;
+                background-color: transparent;
+            }
+        }
+        
+    }
+
+    .header__right {
+        display: flex;
+        align-items: center;
+        
+    }
+}
