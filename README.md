@@ -29,8 +29,9 @@ To set up the SocialHub project locally, follow these steps:
 This Project ensures secure and efficient handling of user data through robust authentication and real-time data storage using Firebase. The authentication mechanisms protect user accounts, and Firebase facilitates real-time updates for a responsive user experience.
 
 
+## Project Demo
+## https://linkedin-684b7.web.app
 
-## https://github.com/MRPERFECT0603/LinkedIn-Clone.git
 For further inquiries or support, please contact:
 - **Vivek Shaurya**
   - *Email*: vivekshaurya62@gmail.com
