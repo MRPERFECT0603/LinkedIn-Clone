@@ -18,10 +18,10 @@ function leftBar() {
         </div>
         <div className="leftbar_info">
           <div className="leftbar_name">
-            <h3>Tanya Vashistha</h3>
+            <h3>Vivek Shaurya</h3>
           </div>
           <div className="leftbar_desc">
-            <span>tanyavashistha11@gmail.com</span>
+            <span>vivekshaurya62@gmail.com</span>
           </div>
         </div>
         <div className="leftbar_stats">

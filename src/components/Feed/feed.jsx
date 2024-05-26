@@ -71,7 +71,7 @@ function Feed() {
     <div className='feed'>
       <div className="addPost">
         <div className="img">
-          <Avatar src="./story7.jpeg" className='avatar' />
+          <Avatar src="./Post2.jpeg" className='avatar' />
         </div>
         <div className="postForm">
           <form action="">

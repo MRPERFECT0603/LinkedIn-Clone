@@ -40,7 +40,7 @@ function Header() {
         <NavbarOption Icon={BusinessCenterOutlinedIcon} title='Jobs' />
         <NavbarOption Icon={SmsOutlinedIcon} title='Messaging' />
         <NavbarOption Icon={NotificationsActiveOutlinedIcon} title='Notifications' />
-        <NavbarOption onClick={logout} avatar="./story7.jpeg" title="me" />
+        <NavbarOption onClick={logout} avatar="./Post2.jpeg" title="me" />
       </div>
     </div>
   )
