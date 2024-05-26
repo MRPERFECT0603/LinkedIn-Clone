@@ -4,17 +4,17 @@ import { Avatar } from '@mui/material';
 import BookmarkOutlinedIcon from '@mui/icons-material/BookmarkOutlined';
 function leftBar() {
   const recentItem = (topic) => (
-      <div className="recent">
-        <span className='leftBar_hash'>#</span>
-        <p>{topic}</p>
-      </div>
+    <div className="recent">
+      <span className='leftBar_hash'>#</span>
+      <p>{topic}</p>
+    </div>
   );
   return (
     <div className='leftBar'>
       <div className="leftbar_up">
         <div className="leftbar_pic">
           <img className="bgimg" src="./1.png" alt="" />
-          <Avatar className="avatar" src='./story7.jpeg' />
+          <Avatar className="avatar" src='./Post2.jpeg' />
         </div>
         <div className="leftbar_info">
           <div className="leftbar_name">
@@ -35,7 +35,7 @@ function leftBar() {
           </div>
         </div>
         <div className="myItems">
-          <BookmarkOutlinedIcon  style={{ fontSize: '16px' }}/>
+          <BookmarkOutlinedIcon style={{ fontSize: '16px' }} />
           <h5>My items</h5>
         </div>
       </div>

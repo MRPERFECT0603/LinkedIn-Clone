@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./login.scss";
 import CopyrightRoundedIcon from '@mui/icons-material/CopyrightRounded';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
@@ -11,6 +11,11 @@ function Login() {
     const [password, setPassword] = useState("");
     // const dispatch = useDispatch();
     const navigate = useNavigate();
+
+    useEffect(() => {
+        console.log('Login component re-rendered');
+    }, []);
+
     const footerItem = (item) => (
         <div className="fitem">
             <span>{item}</span>
